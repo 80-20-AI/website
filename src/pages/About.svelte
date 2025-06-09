@@ -6,7 +6,7 @@
 <section class="bg-gradient-to-b from-primary-50 to-white py-16 md:py-24">
   <div class="container">
     <div class="max-w-3xl mx-auto text-center mb-16">
-      <h1 class="text-3xl md:text-4xl font-semibold text-secondary-900 mb-4">
+      <h1 class="text-3xl md:text-4xl font-semibold text-secondary-800 mb-4">
         About 80/20 AI
       </h1>
       <p class="text-xl text-secondary-700">
@@ -58,25 +58,24 @@
         </div>
       </div>
       
-      <!-- Our Story -->
+      <!-- Why We Built This -->
       <div class="bg-white rounded-xl shadow-soft overflow-hidden mb-20">
         <div class="p-8 md:p-12">
-          <h2 class="text-2xl md:text-3xl font-semibold text-secondary-800 mb-6">
-            Our Story
+          <h2 class="text-2xl md:text-3xl font-semibold text-secondary-800 mb-8 text-center">
+            Why We Built This
           </h2>
-          <div class="space-y-4 text-secondary-700">
-            <p>
-              80/20 AI was founded in 2024 by a team of AI safety researchers, cybersecurity professionals, and compliance experts who recognized a critical gap in the market: while AI capabilities were advancing rapidly, tools to help organizations manage AI risks were lagging behind.
+          <div class="space-y-6 text-secondary-700 max-w-4xl mx-auto">
+            <p class="text-lg">
+              After years of building AI systems for enterprise clients, we saw firsthand how organizations struggled with managing AI risk. The problem wasn't a lack of willingness to comply—it was the overwhelming complexity of regulations and hidden risks in vendor agreements.
             </p>
-            <p>
-              Our founding team witnessed firsthand how organizations struggled to keep up with evolving AI regulations and best practices, often resorting to expensive consultants or taking on significant compliance risks.
+            <p class="text-lg">
+              We realized that our expertise in both AI development and compliance could help bridge this gap. So we built 80/20 Rule AI to automate the risk identification and policy creation processes we had been doing manually for clients.
             </p>
-            <p>
-              We built 80/20 AI on the principle that expert AI risk guidance should be accessible to everyone—not just tech giants with large compliance teams. Our name reflects the Pareto principle: we help you achieve 80% of the risk management outcomes with 20% of the traditional effort and cost.
-            </p>
-            <p>
-              Today, we're proud to support organizations across industries in implementing responsible AI practices that protect their users, their reputation, and their bottom line.
-            </p>
+            <div class="text-center py-6">
+              <p class="text-xl font-medium text-primary-500 italic">
+                We do this for real, and that's why we can automate it.
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -148,7 +147,7 @@
       </div>
       
       <!-- CTA -->
-      <div class="bg-gradient-to-br from-primary-600 to-primary-800 rounded-xl shadow-soft overflow-hidden">
+      <div class="bg-gradient-to-br from-primary-500 to-primary-600 rounded-xl shadow-soft overflow-hidden">
         <div class="p-8 md:p-12 text-center">
           <h2 class="text-2xl md:text-3xl font-semibold text-white mb-4">
             Join us in building a safer AI future
@@ -158,7 +157,7 @@
           </p>
           <div class="flex flex-col sm:flex-row gap-4 justify-center">
             <Button href="/chat" variant="accent" size="lg">Try the AI Assistant</Button>
-            <Button href="/contact" variant="outline" size="lg">Contact Our Team</Button>
+            <Button href="/contact" variant="secondary" size="lg">Contact Our Team</Button>
           </div>
         </div>
       </div>
