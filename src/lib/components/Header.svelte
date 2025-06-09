@@ -36,7 +36,7 @@
     <a href="/" class="flex items-center group" on:click={closeMenu}>
       <div class="flex items-center">
         <span class="text-2xl font-display font-black bg-gradient-to-r from-secondary-900 to-secondary-700 bg-clip-text text-transparent">8020 Rule</span>
-        <span class="text-2xl font-display font-black text-accent-500 ml-0.5">AI</span>
+        <span class="text-2xl font-display font-black text-primary-600 ml-0.5">AI</span>
       </div>
     </a>
     
