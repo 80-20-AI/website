@@ -14,42 +14,128 @@
       </p>
     </div>
     
-    <!-- What We Do Section -->
-    <div class="max-w-4xl mx-auto mb-20">
-      <div class="text-center mb-12">
-        <h2 class="text-3xl md:text-4xl font-semibold text-secondary-800 mb-8">
-          What We Do
-        </h2>
-      </div>
-      
-      <div class="bg-white rounded-2xl shadow-soft p-8 md:p-12">
-        <div class="max-w-3xl mx-auto text-center space-y-6">
-          <p class="text-xl text-secondary-700 leading-relaxed">
-            We help organizations navigate AI risk and compliance without the complexity. Our platform combines expert knowledge with AI-powered tools to make risk management accessible to teams of all sizes.
+    <!-- Our Mission Section -->
+    <div class="max-w-6xl mx-auto mb-20">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div>
+          <h2 class="text-3xl md:text-4xl font-semibold text-secondary-800 mb-6">
+            Our Mission
+          </h2>
+          <p class="text-lg text-secondary-700 mb-6 leading-relaxed">
+            We believe that organizations shouldn't have to choose between innovation and compliance. Our mission is to make AI risk management accessible, straightforward, and effective.
           </p>
-          <p class="text-xl text-secondary-700 leading-relaxed">
-            From instant compliance guidance to custom policy generation, we're here to help you implement AI safely and confidently.
+          <p class="text-lg text-secondary-700 mb-8 leading-relaxed">
+            The 80/20 Rule AI platform helps you identify and address the 20% of AI risks that cause 80% of potential harm, so you can focus your resources where they matter most.
           </p>
+          
+          <div class="space-y-6">
+            <div class="flex items-start space-x-4">
+              <div class="flex-shrink-0 w-8 h-8 rounded-full bg-primary-100 flex items-center justify-center mt-1">
+                <svg class="w-5 h-5 text-primary-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <div>
+                <h3 class="text-lg font-semibold text-secondary-800 mb-2">Simplify Compliance</h3>
+                <p class="text-secondary-600">We translate complex regulations into actionable steps.</p>
+              </div>
+            </div>
+            
+            <div class="flex items-start space-x-4">
+              <div class="flex-shrink-0 w-8 h-8 rounded-full bg-primary-100 flex items-center justify-center mt-1">
+                <svg class="w-5 h-5 text-primary-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <div>
+                <h3 class="text-lg font-semibold text-secondary-800 mb-2">Protect Your Organization</h3>
+                <p class="text-secondary-600">Identify hidden risks in AI tool terms and contracts.</p>
+              </div>
+            </div>
+            
+            <div class="flex items-start space-x-4">
+              <div class="flex-shrink-0 w-8 h-8 rounded-full bg-primary-100 flex items-center justify-center mt-1">
+                <svg class="w-5 h-5 text-primary-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <div>
+                <h3 class="text-lg font-semibold text-secondary-800 mb-2">Enable Responsible Innovation</h3>
+                <p class="text-secondary-600">Use AI confidently with proper safeguards in place.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div>
+          <img 
+            src="https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+            alt="Team collaborating on AI strategy" 
+            class="rounded-xl shadow-soft w-full"
+          />
         </div>
       </div>
     </div>
     
     <!-- How We're Different Section -->
-    <div class="max-w-4xl mx-auto mb-20">
-      <div class="text-center mb-12">
-        <h2 class="text-3xl md:text-4xl font-semibold text-secondary-800 mb-8">
-          How We're Different
-        </h2>
-      </div>
-      
-      <div class="bg-white rounded-2xl shadow-soft p-8 md:p-12">
-        <div class="max-w-3xl mx-auto text-center space-y-6">
-          <p class="text-xl text-secondary-700 leading-relaxed">
+    <div class="max-w-6xl mx-auto mb-20">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div class="order-2 lg:order-1">
+          <img 
+            src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+            alt="Privacy-first AI development" 
+            class="rounded-xl shadow-soft w-full"
+          />
+        </div>
+        
+        <div class="order-1 lg:order-2">
+          <h2 class="text-3xl md:text-4xl font-semibold text-secondary-800 mb-6">
+            How We're Different
+          </h2>
+          <p class="text-lg text-secondary-700 mb-6 leading-relaxed">
             Unlike traditional consulting firms that charge thousands for basic guidance, we've automated expert knowledge to make it instantly accessible and affordable.
           </p>
-          <p class="text-xl text-secondary-700 leading-relaxed">
+          <p class="text-lg text-secondary-700 mb-8 leading-relaxed">
             Our privacy-first approach means your data never trains our models or gets shared with third parties. We're built by cybersecurity professionals who understand that trust is earned through transparency.
           </p>
+          
+          <div class="space-y-6">
+            <div class="flex items-start space-x-4">
+              <div class="flex-shrink-0 w-8 h-8 rounded-full bg-accent-100 flex items-center justify-center mt-1">
+                <svg class="w-5 h-5 text-accent-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                </svg>
+              </div>
+              <div>
+                <h3 class="text-lg font-semibold text-secondary-800 mb-2">Privacy-First Architecture</h3>
+                <p class="text-secondary-600">Your data is never used for training and is automatically deleted after processing.</p>
+              </div>
+            </div>
+            
+            <div class="flex items-start space-x-4">
+              <div class="flex-shrink-0 w-8 h-8 rounded-full bg-accent-100 flex items-center justify-center mt-1">
+                <svg class="w-5 h-5 text-accent-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                </svg>
+              </div>
+              <div>
+                <h3 class="text-lg font-semibold text-secondary-800 mb-2">Instant Expert Guidance</h3>
+                <p class="text-secondary-600">Get immediate answers instead of waiting weeks for consultant availability.</p>
+              </div>
+            </div>
+            
+            <div class="flex items-start space-x-4">
+              <div class="flex-shrink-0 w-8 h-8 rounded-full bg-accent-100 flex items-center justify-center mt-1">
+                <svg class="w-5 h-5 text-accent-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1" />
+                </svg>
+              </div>
+              <div>
+                <h3 class="text-lg font-semibold text-secondary-800 mb-2">Affordable Access</h3>
+                <p class="text-secondary-600">Get expert-level guidance at a fraction of traditional consulting costs.</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
