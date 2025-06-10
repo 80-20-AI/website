@@ -2,11 +2,11 @@
   import Button from '$lib/components/Button.svelte';
 </script>
 
-<section class="relative bg-gradient-to-br from-primary-50 via-white to-secondary-50 py-16 md:py-24 overflow-hidden">
+<section class="relative bg-gradient-to-br from-primary-50 via-white to-accent-50 py-16 md:py-24 overflow-hidden">
   <!-- Background decorative elements -->
   <div class="absolute inset-0 overflow-hidden">
     <div class="absolute top-10 left-10 w-72 h-72 bg-primary-100/20 rounded-full blur-3xl"></div>
-    <div class="absolute bottom-10 right-10 w-72 h-72 bg-secondary-100/20 rounded-full blur-3xl"></div>
+    <div class="absolute bottom-10 right-10 w-72 h-72 bg-accent-100/20 rounded-full blur-3xl"></div>
   </div>
   
   <div class="container relative">
@@ -21,7 +21,7 @@
       
       <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-secondary-800 mb-6 leading-tight">
         Expert AI Risk
-        <span class="bg-gradient-to-r from-primary-500 to-secondary-600 bg-clip-text text-transparent">
+        <span class="bg-gradient-to-r from-primary-500 to-accent-500 bg-clip-text text-transparent">
           Consultation
         </span>
       </h1>

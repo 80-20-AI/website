@@ -36,18 +36,18 @@
   }
 </script>
 
-<section class="relative bg-gradient-to-br from-accent-50 via-white to-primary-50 py-16 md:py-24 overflow-hidden">
+<section class="relative bg-gradient-to-br from-primary-50 via-white to-accent-50 py-16 md:py-24 overflow-hidden">
   <!-- Background decorative elements -->
   <div class="absolute inset-0 overflow-hidden">
-    <div class="absolute top-20 left-20 w-64 h-64 bg-accent-100/20 rounded-full blur-3xl"></div>
-    <div class="absolute bottom-20 right-20 w-64 h-64 bg-primary-100/20 rounded-full blur-3xl"></div>
+    <div class="absolute top-20 left-20 w-64 h-64 bg-primary-100/20 rounded-full blur-3xl"></div>
+    <div class="absolute bottom-20 right-20 w-64 h-64 bg-accent-100/20 rounded-full blur-3xl"></div>
   </div>
   
   <div class="container relative">
     <div class="max-w-4xl mx-auto text-center mb-12">
       <!-- Badge -->
-      <div class="inline-flex items-center bg-accent-100/80 backdrop-blur-sm text-accent-700 rounded-full px-4 py-2 text-sm font-medium mb-6">
-        <svg class="w-4 h-4 mr-2 text-accent-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <div class="inline-flex items-center bg-primary-100/80 backdrop-blur-sm text-primary-700 rounded-full px-4 py-2 text-sm font-medium mb-6">
+        <svg class="w-4 h-4 mr-2 text-primary-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
         </svg>
         We're here to help
@@ -55,7 +55,7 @@
       
       <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-secondary-800 mb-6 leading-tight">
         Get in
-        <span class="bg-gradient-to-r from-accent-500 to-primary-500 bg-clip-text text-transparent">
+        <span class="bg-gradient-to-r from-primary-500 to-accent-500 bg-clip-text text-transparent">
           Touch
         </span>
       </h1>
@@ -67,11 +67,11 @@
       <!-- Response time info -->
       <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-lg mx-auto mb-8">
         <div class="text-center">
-          <div class="text-2xl font-bold text-accent-500 mb-1">24hrs</div>
+          <div class="text-2xl font-bold text-primary-500 mb-1">24hrs</div>
           <div class="text-sm text-secondary-600">Response time</div>
         </div>
         <div class="text-center">
-          <div class="text-2xl font-bold text-accent-500 mb-1">Expert</div>
+          <div class="text-2xl font-bold text-primary-500 mb-1">Expert</div>
           <div class="text-sm text-secondary-600">Support team</div>
         </div>
       </div>
