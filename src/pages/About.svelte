@@ -14,30 +14,29 @@
       </p>
     </div>
     
-    <!-- Mission & Vision -->
-    <div class="max-w-5xl mx-auto">
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-20">
-        <div>
-          <h2 class="text-2xl md:text-3xl font-semibold text-secondary-800 mb-6">
-            Our Mission
-          </h2>
-          <p class="text-lg text-secondary-700 mb-4">
+    <!-- Mission Section -->
+    <div class="max-w-5xl mx-auto mb-20">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-semibold text-secondary-800 mb-8">
+          Our Mission
+        </h2>
+      </div>
+      
+      <div class="bg-white rounded-2xl shadow-soft p-8 md:p-12">
+        <div class="max-w-4xl mx-auto text-center space-y-6">
+          <p class="text-xl text-secondary-700 leading-relaxed">
             To democratize AI risk management by providing accessible, expert guidance that empowers organizations of all sizes to implement AI responsibly.
           </p>
-          <p class="text-lg text-secondary-700">
+          <p class="text-xl text-secondary-700 leading-relaxed">
             We believe that innovation and safety can co-exist when organizations have the right tools to navigate the complex AI risk landscape.
           </p>
         </div>
-        <div>
-          <img 
-            src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-            alt="80/20 AI Team Collaboration" 
-            class="rounded-xl shadow-soft w-full"
-          />
-        </div>
       </div>
-      
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-20">
+    </div>
+    
+    <!-- Vision Section -->
+    <div class="max-w-5xl mx-auto mb-20">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <div class="order-2 lg:order-1">
           <img 
             src="https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
@@ -57,9 +56,11 @@
           </p>
         </div>
       </div>
+    </div>
       
-      <!-- Why We Built This -->
-      <div class="bg-white rounded-xl shadow-soft overflow-hidden mb-20">
+    <!-- Why We Built This -->
+    <div class="max-w-5xl mx-auto mb-20">
+      <div class="bg-white rounded-xl shadow-soft overflow-hidden">
         <div class="p-8 md:p-12">
           <h2 class="text-2xl md:text-3xl font-semibold text-secondary-800 mb-8 text-center">
             Why We Built This
@@ -79,21 +80,23 @@
           </div>
         </div>
       </div>
+    </div>
       
-      <!-- Privacy Architecture -->
-      <div class="mb-20">
-        <h2 class="text-2xl md:text-3xl font-semibold text-secondary-800 text-center mb-8">
-          Our Privacy-First Architecture
-        </h2>
-        <p class="text-lg text-secondary-700 text-center max-w-3xl mx-auto mb-12">
-          We built 80/20 AI with privacy as a core principle. Your data never trains our models and is automatically deleted after processing.
-        </p>
-        
-        <PrivacyDiagram />
-      </div>
+    <!-- Privacy Architecture -->
+    <div class="max-w-5xl mx-auto mb-20">
+      <h2 class="text-2xl md:text-3xl font-semibold text-secondary-800 text-center mb-8">
+        Our Privacy-First Architecture
+      </h2>
+      <p class="text-lg text-secondary-700 text-center max-w-3xl mx-auto mb-12">
+        We built 80/20 AI with privacy as a core principle. Your data never trains our models and is automatically deleted after processing.
+      </p>
       
-      <!-- From the Founders -->
-      <div class="bg-white rounded-xl shadow-soft overflow-hidden mb-20">
+      <PrivacyDiagram />
+    </div>
+      
+    <!-- From the Founders -->
+    <div class="max-w-5xl mx-auto mb-20">
+      <div class="bg-white rounded-xl shadow-soft overflow-hidden">
         <div class="p-8 md:p-12">
           <h2 class="text-2xl md:text-3xl font-semibold text-secondary-800 mb-8 text-center">
             From the Founders
@@ -120,8 +123,10 @@
           </div>
         </div>
       </div>
+    </div>
       
-      <!-- CTA -->
+    <!-- CTA -->
+    <div class="max-w-5xl mx-auto">
       <div class="bg-gradient-to-br from-primary-500 to-primary-600 rounded-xl shadow-soft overflow-hidden">
         <div class="p-8 md:p-12 text-center">
           <h2 class="text-2xl md:text-3xl font-semibold text-white mb-4">
