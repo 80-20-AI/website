@@ -10,7 +10,7 @@ export default {
           200: '#fed7aa',
           300: '#fdba74',
           400: '#fb923c',
-          500: '#ff8f12', // Your custom orange
+          500: '#ff9f2a', // Lighter, more vibrant orange
           600: '#ea580c',
           700: '#c2410c',
           800: '#9a3412',
@@ -51,7 +51,7 @@ export default {
       boxShadow: {
         'soft': '0 0 20px rgba(0, 0, 0, 0.02)',
         'hover': '0 8px 30px rgba(0, 0, 0, 0.08)',
-        'glow': '0 0 20px rgba(255, 143, 18, 0.2)', // Updated to use your orange
+        'glow': '0 0 20px rgba(255, 159, 42, 0.2)', // Updated to use the lighter orange
       },
       borderRadius: {
         'xl': '1rem',
