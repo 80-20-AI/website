@@ -105,34 +105,6 @@
                 <span class="text-secondary-700">Expert review of your AI policy implementation</span>
               </li>
             </ul>
-            
-            <div class="pt-4 border-t border-secondary-100">
-              <h3 class="font-medium text-secondary-800 mb-3">
-                Our Consultation Team
-              </h3>
-              <div class="flex items-center mb-4">
-                <img 
-                  src="https://images.pexels.com/photos/5669619/pexels-photo-5669619.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-                  alt="AI Risk Consultant" 
-                  class="w-12 h-12 rounded-full object-cover mr-4"
-                />
-                <div>
-                  <p class="font-medium text-secondary-800">Dr. Sarah Chen</p>
-                  <p class="text-sm text-secondary-600">AI Ethics Specialist</p>
-                </div>
-              </div>
-              <div class="flex items-center">
-                <img 
-                  src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-                  alt="AI Risk Consultant" 
-                  class="w-12 h-12 rounded-full object-cover mr-4"
-                />
-                <div>
-                  <p class="font-medium text-secondary-800">Mark Johnson</p>
-                  <p class="text-sm text-secondary-600">AI Compliance Director</p>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
         
