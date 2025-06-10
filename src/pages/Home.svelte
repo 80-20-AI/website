@@ -54,7 +54,7 @@
       
       <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-secondary-800 mb-6 leading-tight">
         AI risk is changing fast.<br />
-        <span class="bg-gradient-to-r from-primary-500 via-accent-500 to-primary-600 bg-clip-text text-transparent">
+        <span class="bg-gradient-to-r from-primary-500 to-accent-500 bg-clip-text text-transparent">
           We help you keep up.
         </span>
       </h1>
