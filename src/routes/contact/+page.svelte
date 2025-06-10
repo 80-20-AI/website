@@ -36,19 +36,49 @@
   }
 </script>
 
-<section class="bg-gradient-to-b from-primary-50 to-white py-16 md:py-24">
-  <div class="container">
-    <div class="max-w-3xl mx-auto text-center mb-12">
-      <h1 class="text-3xl md:text-4xl font-semibold text-secondary-900 mb-4">
-        Contact Us
+<section class="relative bg-gradient-to-br from-primary-50 via-white to-accent-50 py-16 md:py-24 overflow-hidden">
+  <!-- Background decorative elements -->
+  <div class="absolute inset-0 overflow-hidden">
+    <div class="absolute top-20 left-20 w-64 h-64 bg-primary-100/20 rounded-full blur-3xl"></div>
+    <div class="absolute bottom-20 right-20 w-64 h-64 bg-accent-100/20 rounded-full blur-3xl"></div>
+  </div>
+  
+  <div class="container relative">
+    <div class="max-w-4xl mx-auto text-center mb-12">
+      <!-- Badge -->
+      <div class="inline-flex items-center bg-primary-100/80 backdrop-blur-sm text-primary-700 rounded-full px-4 py-2 text-sm font-medium mb-6">
+        <svg class="w-4 h-4 mr-2 text-primary-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+        </svg>
+        We're here to help
+      </div>
+      
+      <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-secondary-800 mb-6 leading-tight">
+        Get in
+        <span class="bg-gradient-to-r from-primary-500 to-accent-500 bg-clip-text text-transparent">
+          Touch
+        </span>
       </h1>
-      <p class="text-xl text-secondary-700">
-        Get in touch with our team for any questions about AI risk management
+      
+      <p class="text-xl md:text-2xl text-secondary-600 mb-8 max-w-3xl mx-auto leading-relaxed">
+        Get in touch with our team for any questions about AI risk management. We're here to help you navigate the complex world of AI compliance.
       </p>
+      
+      <!-- Response time info -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-lg mx-auto mb-8">
+        <div class="text-center">
+          <div class="text-2xl font-bold text-primary-500 mb-1">24hrs</div>
+          <div class="text-sm text-secondary-600">Response time</div>
+        </div>
+        <div class="text-center">
+          <div class="text-2xl font-bold text-primary-500 mb-1">Expert</div>
+          <div class="text-sm text-secondary-600">Support team</div>
+        </div>
+      </div>
     </div>
     
     <div class="max-w-2xl mx-auto">
-      <div class="glass-card p-8">
+      <div class="bg-white/70 backdrop-blur-sm rounded-xl shadow-soft p-8 border border-white/20">
         {#if success}
           <div class="text-center py-8">
             <div class="w-16 h-16 bg-primary-100 text-primary-600 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -161,7 +191,7 @@
       
       <!-- Alternative Contact Methods -->
       <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6">
-        <div class="glass-card p-6 text-center">
+        <div class="bg-white/70 backdrop-blur-sm rounded-xl shadow-soft p-6 text-center border border-white/20">
           <div class="w-12 h-12 bg-primary-100 text-primary-600 rounded-full flex items-center justify-center mx-auto mb-4">
             <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
@@ -175,7 +205,7 @@
           </p>
         </div>
         
-        <div class="glass-card p-6 text-center">
+        <div class="bg-white/70 backdrop-blur-sm rounded-xl shadow-soft p-6 text-center border border-white/20">
           <div class="w-12 h-12 bg-primary-100 text-primary-600 rounded-full flex items-center justify-center mx-auto mb-4">
             <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -188,7 +218,7 @@
           </p>
         </div>
         
-        <div class="glass-card p-6 text-center">
+        <div class="bg-white/70 backdrop-blur-sm rounded-xl shadow-soft p-6 text-center border border-white/20">
           <div class="w-12 h-12 bg-primary-100 text-primary-600 rounded-full flex items-center justify-center mx-auto mb-4">
             <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" />
@@ -209,7 +239,7 @@
         </h2>
         
         <div class="space-y-4">
-          <details class="glass-card p-6 cursor-pointer group">
+          <details class="bg-white/70 backdrop-blur-sm rounded-xl shadow-soft p-6 cursor-pointer group border border-white/20">
             <summary class="font-medium text-secondary-800 flex justify-between items-center">
               How quickly can I expect a response?
               <svg class="w-5 h-5 text-secondary-500 group-open:rotate-180 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -221,7 +251,7 @@
             </p>
           </details>
           
-          <details class="glass-card p-6 cursor-pointer group">
+          <details class="bg-white/70 backdrop-blur-sm rounded-xl shadow-soft p-6 cursor-pointer group border border-white/20">
             <summary class="font-medium text-secondary-800 flex justify-between items-center">
               Can I schedule a demo before purchasing?
               <svg class="w-5 h-5 text-secondary-500 group-open:rotate-180 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -233,7 +263,7 @@
             </p>
           </details>
           
-          <details class="glass-card p-6 cursor-pointer group">
+          <details class="bg-white/70 backdrop-blur-sm rounded-xl shadow-soft p-6 cursor-pointer group border border-white/20">
             <summary class="font-medium text-secondary-800 flex justify-between items-center">
               Do you offer custom solutions?
               <svg class="w-5 h-5 text-secondary-500 group-open:rotate-180 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">

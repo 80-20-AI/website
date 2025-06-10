@@ -43,16 +43,66 @@
 <!-- Hero Section -->
 <section class="bg-gradient-to-b from-primary-50 to-white pt-16 pb-24 md:pt-24 md:pb-32">
   <div class="container">
-    <div class="max-w-3xl mx-auto text-center">
+    <div class="max-w-4xl mx-auto text-center">
+      <!-- Alert Badge -->
+      <div class="inline-flex items-center bg-primary-100 text-primary-700 rounded-full px-4 py-2 text-sm font-medium mb-8">
+        <svg class="w-4 h-4 mr-2 text-primary-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+        AI risk is evolving. Stay ahead.
+      </div>
+      
       <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-secondary-800 mb-6 leading-tight">
-        AI moves fast, risk moves faster.
+        AI risk is changing fast.<br />
+        <span class="bg-gradient-to-r from-primary-500 to-accent-500 bg-clip-text text-transparent">
+          We help you keep up.
+        </span>
       </h1>
-      <p class="text-xl md:text-2xl text-secondary-700 mb-8 md:mb-12">
-        Your expert AI risk analyst, built to help you navigate compliance, strategy, and risk without the overhead.
+      
+      <p class="text-xl md:text-2xl text-secondary-600 mb-12 max-w-3xl mx-auto leading-relaxed">
+        80/20 Rule AI flags where your policies and the fine print of AI tools don't align—so you don't accept risks you didn't mean to.
       </p>
-      <div class="flex flex-col sm:flex-row gap-4 justify-center">
-        <Button href="/chat" variant="primary" size="lg">Try the AI Risk Assistant – Free</Button>
+      
+      <div class="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+        <Button href="/chat" variant="primary" size="lg">
+          <span class="flex items-center">
+            Try the AI Assistant – Free
+            <svg class="ml-2 w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+            </svg>
+          </span>
+        </Button>
         <Button href="/consult" variant="secondary" size="lg">Book a Live Consultation</Button>
+      </div>
+      
+      <!-- Feature highlights -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-3xl mx-auto">
+        <div class="flex items-center justify-center space-x-2 text-secondary-600">
+          <div class="w-5 h-5 rounded-full bg-primary-100 flex items-center justify-center">
+            <svg class="w-3 h-3 text-primary-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+            </svg>
+          </div>
+          <span class="text-sm font-medium">Advanced data protection</span>
+        </div>
+        
+        <div class="flex items-center justify-center space-x-2 text-secondary-600">
+          <div class="w-5 h-5 rounded-full bg-primary-100 flex items-center justify-center">
+            <svg class="w-3 h-3 text-primary-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+            </svg>
+          </div>
+          <span class="text-sm font-medium">Compliant with global regulations</span>
+        </div>
+        
+        <div class="flex items-center justify-center space-x-2 text-secondary-600">
+          <div class="w-5 h-5 rounded-full bg-primary-100 flex items-center justify-center">
+            <svg class="w-3 h-3 text-primary-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+            </svg>
+          </div>
+          <span class="text-sm font-medium">Free risk assessment</span>
+        </div>
       </div>
     </div>
   </div>
