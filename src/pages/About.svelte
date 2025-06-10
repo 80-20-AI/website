@@ -92,54 +92,29 @@
         <PrivacyDiagram />
       </div>
       
-      <!-- Team -->
-      <div class="mb-20">
-        <h2 class="text-2xl md:text-3xl font-semibold text-secondary-800 text-center mb-12">
-          Our Leadership Team
-        </h2>
-        
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div class="bg-white rounded-xl shadow-soft overflow-hidden">
-            <img 
-              src="https://images.pexels.com/photos/5669619/pexels-photo-5669619.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-              alt="Dr. Sarah Chen" 
-              class="w-full h-60 object-cover"
-            />
-            <div class="p-6">
-              <h3 class="text-xl font-semibold text-secondary-800 mb-1">Dr. Sarah Chen</h3>
-              <p class="text-secondary-600 mb-4">CEO & Co-Founder</p>
-              <p class="text-secondary-700 text-sm">
-                Former AI ethics researcher with 15+ years in cybersecurity and compliance. Ph.D. in Computer Science from MIT.
-              </p>
-            </div>
-          </div>
-          
-          <div class="bg-white rounded-xl shadow-soft overflow-hidden">
-            <img 
-              src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-              alt="Mark Johnson" 
-              class="w-full h-60 object-cover"
-            />
-            <div class="p-6">
-              <h3 class="text-xl font-semibold text-secondary-800 mb-1">Mark Johnson</h3>
-              <p class="text-secondary-600 mb-4">CTO & Co-Founder</p>
-              <p class="text-secondary-700 text-sm">
-                Previously led AI security teams at major tech companies. Pioneered privacy-preserving machine learning techniques.
-              </p>
-            </div>
-          </div>
-          
-          <div class="bg-white rounded-xl shadow-soft overflow-hidden">
-            <img 
-              src="https://images.pexels.com/photos/3184405/pexels-photo-3184405.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-              alt="Lisa Wong" 
-              class="w-full h-60 object-cover"
-            />
-            <div class="p-6">
-              <h3 class="text-xl font-semibold text-secondary-800 mb-1">Lisa Wong</h3>
-              <p class="text-secondary-600 mb-4">Chief Risk Officer</p>
-              <p class="text-secondary-700 text-sm">
-                Former regulatory advisor with expertise in global compliance frameworks and AI governance models.
+      <!-- From the Founders -->
+      <div class="bg-white rounded-xl shadow-soft overflow-hidden mb-20">
+        <div class="p-8 md:p-12">
+          <h2 class="text-2xl md:text-3xl font-semibold text-secondary-800 mb-8 text-center">
+            From the Founders
+          </h2>
+          <div class="space-y-6 text-secondary-700 max-w-4xl mx-auto text-lg leading-relaxed">
+            <p>
+              We created 8020AI for the teams who don't have time to chase every headline. AI is moving fast, and for small, resource-constrained teams, it's tough to know what actually matters or what could quietly introduce risk through contracts, tools, or vendor relationships. We've been in your shoes—responsible for compliance, security, and strategy while juggling limited time and resources.
+            </p>
+            <p>
+              This platform is our answer. 8020AI is built to cut through the noise and help you focus on the things that matter most—without hype, jargon, or guesswork. Our background is in cybersecurity and AI, and everything here is shaped by what we've seen work (and what we've seen go sideways) in the real world.
+            </p>
+            <p>
+              Everything here has been shaped by hands-on experience and a belief that AI should work for people, not the other way around.
+            </p>
+            <p>
+              Thanks for being here. We're excited to build with you.
+            </p>
+            <div class="text-right mt-8">
+              <p class="font-medium text-secondary-800">
+                —The Founders<br />
+                <span class="text-primary-500">8020AI</span>
               </p>
             </div>
           </div>
