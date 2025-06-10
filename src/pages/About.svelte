@@ -14,45 +14,41 @@
       </p>
     </div>
     
-    <!-- Mission Section -->
-    <div class="max-w-5xl mx-auto mb-20">
+    <!-- What We Do Section -->
+    <div class="max-w-4xl mx-auto mb-20">
       <div class="text-center mb-12">
         <h2 class="text-3xl md:text-4xl font-semibold text-secondary-800 mb-8">
-          Our Mission
+          What We Do
         </h2>
       </div>
       
       <div class="bg-white rounded-2xl shadow-soft p-8 md:p-12">
-        <div class="max-w-4xl mx-auto text-center space-y-6">
+        <div class="max-w-3xl mx-auto text-center space-y-6">
           <p class="text-xl text-secondary-700 leading-relaxed">
-            To democratize AI risk management by providing accessible, expert guidance that empowers organizations of all sizes to implement AI responsibly.
+            We help organizations navigate AI risk and compliance without the complexity. Our platform combines expert knowledge with AI-powered tools to make risk management accessible to teams of all sizes.
           </p>
           <p class="text-xl text-secondary-700 leading-relaxed">
-            We believe that innovation and safety can co-exist when organizations have the right tools to navigate the complex AI risk landscape.
+            From instant compliance guidance to custom policy generation, we're here to help you implement AI safely and confidently.
           </p>
         </div>
       </div>
     </div>
     
-    <!-- Vision Section -->
-    <div class="max-w-5xl mx-auto mb-20">
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-        <div class="order-2 lg:order-1">
-          <img 
-            src="https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-            alt="80/20 AI Vision" 
-            class="rounded-xl shadow-soft w-full"
-          />
-        </div>
-        <div class="order-1 lg:order-2">
-          <h2 class="text-2xl md:text-3xl font-semibold text-secondary-800 mb-6">
-            Our Vision
-          </h2>
-          <p class="text-lg text-secondary-700 mb-4">
-            We envision a world where AI is ubiquitous yet safe — where every organization deploying AI has the necessary expertise to manage risks effectively.
+    <!-- How We're Different Section -->
+    <div class="max-w-4xl mx-auto mb-20">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-semibold text-secondary-800 mb-8">
+          How We're Different
+        </h2>
+      </div>
+      
+      <div class="bg-white rounded-2xl shadow-soft p-8 md:p-12">
+        <div class="max-w-3xl mx-auto text-center space-y-6">
+          <p class="text-xl text-secondary-700 leading-relaxed">
+            Unlike traditional consulting firms that charge thousands for basic guidance, we've automated expert knowledge to make it instantly accessible and affordable.
           </p>
-          <p class="text-lg text-secondary-700">
-            By combining expert guidance with privacy-first technology, we're creating a future where AI's benefits can be realized while its risks are properly managed.
+          <p class="text-xl text-secondary-700 leading-relaxed">
+            Our privacy-first approach means your data never trains our models or gets shared with third parties. We're built by cybersecurity professionals who understand that trust is earned through transparency.
           </p>
         </div>
       </div>
