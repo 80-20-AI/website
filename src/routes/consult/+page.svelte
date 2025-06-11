@@ -170,11 +170,11 @@
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div class="bg-white/70 backdrop-blur-sm rounded-xl shadow-soft p-6 border border-white/20">
             <div class="flex items-center mb-4">
-              <img 
-                src="https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-                alt="Client" 
-                class="w-12 h-12 rounded-full object-cover mr-4"
-              />
+              <div class="w-12 h-12 rounded-full bg-primary-100 flex items-center justify-center mr-4">
+                <svg class="w-6 h-6 text-primary-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                </svg>
+              </div>
               <div>
                 <p class="font-medium text-secondary-800">Emily Rodriguez</p>
                 <p class="text-sm text-secondary-600">CTO, HealthTech Innovations</p>
@@ -187,11 +187,11 @@
           
           <div class="bg-white/70 backdrop-blur-sm rounded-xl shadow-soft p-6 border border-white/20">
             <div class="flex items-center mb-4">
-              <img 
-                src="https://images.pexels.com/photos/3778603/pexels-photo-3778603.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-                alt="Client" 
-                class="w-12 h-12 rounded-full object-cover mr-4"
-              />
+              <div class="w-12 h-12 rounded-full bg-primary-100 flex items-center justify-center mr-4">
+                <svg class="w-6 h-6 text-primary-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                </svg>
+              </div>
               <div>
                 <p class="font-medium text-secondary-800">David Kim</p>
                 <p class="text-sm text-secondary-600">Legal Director, Finance Solutions</p>
