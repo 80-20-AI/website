@@ -101,7 +101,7 @@
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
             </svg>
           </div>
-          <span class="text-sm font-medium">Free risk assessment</span>
+          <span class="text-sm font-medium">Third party T&Cs monitoring</span>
         </div>
       </div>
     </div>
